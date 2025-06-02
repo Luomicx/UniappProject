@@ -38,7 +38,7 @@ npm run build
 ├── vite.config.js       # Vite配置
 ├── api/                 # 后端接口实现
 ├── components/          # 组件库
-
+```
 - **IDE**: HBuilderX (uni-app官方推荐IDE)
 - **版本控制**: Git (分布式版本控制系统)
 - **调试工具**: 微信开发者工具 (用于小程序调试)
