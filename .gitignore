@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# UniApp
+unpackage/
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# OS generated
+.DS_Store
+Thumbs.db

@@ -1,0 +1,237 @@
+{
+    "pages": [{
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/choose-role/index",
+            "style": {
+                "navigationBarTitleText": "选择身份",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/index",
+            "style": {
+                "navigationBarTitleText": "首页",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/consultation",
+            "style": {
+                "navigationBarTitleText": "咨询预约",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/community",
+            "style": {
+                "navigationBarTitleText": "社圈",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/post-create",
+            "style": {
+                "navigationBarTitleText": "发布帖子",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/post-detail",
+            "style": {
+                "navigationBarTitleText": "帖子详情",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/profile",
+            "style": {
+                "navigationBarTitleText": "个人中心",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/personal-info",
+            "style": {
+                "navigationBarTitleText": "填写信息",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/medical-records",
+            "style": {
+                "navigationBarTitleText": "我的病历",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/medical-record-detail",
+            "style": {
+                "navigationBarTitleText": "病历详情",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/disease-info-input",
+            "style": {
+                "navigationBarTitleText": "补充信息",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/detection-history",
+            "style": {
+                "navigationBarTitleText": "检测历史",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/appointment-date",
+            "style": {
+                "navigationBarTitleText": "选择预约时间",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/my-appointments",
+            "style": {
+                "navigationBarTitleText": "我的预约",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/appointment-detail",
+            "style": {
+                "navigationBarTitleText": "预约详情",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/doctor/appointments",
+            "style": {
+                "navigationBarTitleText": "预约管理",
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "bounce": "none"
+                }
+            }
+        },
+        {
+            "path": "pages/doctor/medical-records",
+            "style": {
+                "navigationBarTitleText": "病历单列表",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/doctor/profile",
+            "style": {
+                "navigationBarTitleText": "个人中心",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/doctor/patient-list",
+            "style": {
+                "navigationBarTitleText": "我的患者",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/doctor/personal-info",
+            "style": {
+                "navigationBarTitleText": "填写信息",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/doctor/workbench",
+            "style": {
+                "navigationBarTitleText": "看诊工作台",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/doctor/appointment-detail",
+            "style": {
+                "navigationBarTitleText": "预约详情",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/doctor/medical-record-detail",
+            "style": {
+                "navigationBarTitleText": "病历单详情",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/patient/ai-assistant",
+            "style": {
+                "navigationBarTitleText": "AI健康助手",
+                "navigationStyle": "custom"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "AI皮肤病诊断",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            "^u-(.*)": "@/node_modules/uview-plus/components/u-$1/u-$1.vue"
+        }
+    },
+    "tabBar": {
+        "custom": true,
+        "color": "#999999",
+        "selectedColor": "#4A90E2",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/patient/index",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/patient/consultation",
+                "text": "咨询预约"
+            },
+            {
+                "pagePath": "pages/patient/ai-assistant",
+                "text": "AI助手"
+            },
+            {
+                "pagePath": "pages/patient/community",
+                "text": "社圈"
+            },
+            {
+                "pagePath": "pages/patient/profile",
+                "text": "我的"
+            },
+            {
+                "pagePath": "pages/doctor/appointments",
+                "text": "预约管理"
+            },
+            {
+                "pagePath": "pages/doctor/workbench",
+                "text": "看诊工作台"
+            },
+            {
+                "pagePath": "pages/doctor/medical-records",
+                "text": "病历单"
+            },
+            {
+                "pagePath": "pages/doctor/profile",
+                "text": "我的"
+            }
+        ]
+    }
+}
